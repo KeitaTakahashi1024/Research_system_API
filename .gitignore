@@ -1,0 +1,7 @@
+mysql/sqls/initialize.sql
+mysql/mysql_data
+src/__pycache__
+src/apis/__pycache__
+src/models/__pycache__
+.idea
+.vscode

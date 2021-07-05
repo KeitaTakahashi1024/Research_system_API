@@ -91,7 +91,6 @@ class LocationsAPI(Resource):
 
                 if len(places) != 0 :
                     for place in places :
-                        print(place[0],name)
                         list.append({
                             'id': place[0],
                             'lat': place[2],
@@ -109,6 +108,5 @@ class LocationsAPI(Resource):
                     'places': list
                 })
                 
-            print(count)
 
         return jsonify(allJson)
